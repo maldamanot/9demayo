@@ -1,6 +1,7 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/photo-1691630346650-afd331e8a5be.jpeg');
-  background-position: 50% 50%;
+  background-image: linear-gradient(0deg, rgba(128, 128, 128, 0.3), rgba(128, 128, 128, 0.3)), url('images/photo_2025-10-21_22-08-33.jpg');
+  background-position: 50% 50%, 50% 85.4%;
+  background-size: cover, cover;
 }
 
 .u-section-1 .u-sheet-1 {
