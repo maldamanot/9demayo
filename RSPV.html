@@ -103,7 +103,7 @@ background-color: #fffcf7 !important
                 </div>
               </div>
             </div>
-            <div class="u-form-group" data-dependency="[{&quot;action&quot;:&quot;show&quot;,&quot;field&quot;:&quot;acompanante-radiobutton&quot;,&quot;condition&quot;:&quot;equal&quot;,&quot;value&quot;:&quot;si&quot;}]">
+            <div class="u-form-group" data-dependency="[{&quot;action&quot;:&quot;hide&quot;,&quot;field&quot;:&quot;asistencia-radiobutton&quot;,&quot;condition&quot;:&quot;equal&quot;,&quot;value&quot;:&quot;no&quot;}]">
               <label for="email-96a9" class="u-label">Nombre acompañante</label>
               <input id="email-96a9" name="acompanante" class="u-input u-input-rectangle" required="required" type="text">
             </div>
@@ -111,13 +111,19 @@ background-color: #fffcf7 !important
               <label for="message-96a9" class="u-label">Alergias o restricciones alimentarias</label>
               <textarea rows="4" cols="50" id="message-96a9" name="especificacion-comida" class="u-input u-input-rectangle" required=""></textarea>
             </div>
+            <div class="u-form-group u-form-input-layout-vertical u-form-group-6" data-dependency="[{&quot;action&quot;:&quot;hide&quot;,&quot;field&quot;:&quot;asistencia-radiobutton&quot;,&quot;condition&quot;:&quot;equal&quot;,&quot;value&quot;:&quot;no&quot;}]">
+              <label for="text-8468" class="u-label">Por último y no menos importante...<br>¿Qué canción crees que es imprescindible que suene este día?
+              </label>
+              <input type="text" placeholder="" id="text-8468" name="text" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white">
+            </div>
             <div class="u-align-center u-form-group u-form-submit">
-              <a href="#" class="u-btn u-btn-submit u-button-style">Enviar</a>
+              <a href="#" class="u-btn u-btn-submit u-button-style u-btn-1">Enviar</a>
               <input type="submit" value="submit" class="u-form-control-hidden">
             </div>
             <div class="u-form-send-message u-form-send-success"> Gracias! Tu mensaje ha sido enviado. </div>
             <div class="u-form-send-error u-form-send-message"> No se puede enviar su mensaje. Por favor, corrija los errores y vuelva a intentarlo. </div>
             <input type="hidden" value="" name="recaptchaResponse">
+            <input type="hidden" name="formServices" value="46a9e01b-6b64-6fcd-cf9a-a3937e01c970">
           </form>
         </div>
       </div>

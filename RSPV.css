@@ -47,6 +47,14 @@
   margin-left: 0;
 }
 
+.u-section-2 .u-form-group-6 {
+  margin-left: 0;
+}
+
+.u-section-2 .u-btn-1 {
+  padding: 10px 141px;
+}
+
 @media (max-width: 767px) {
   .u-section-2 .u-form-1 {
     width: 540px;
