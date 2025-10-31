@@ -45,13 +45,31 @@
 
 .u-section-2 .u-form-group-3 {
   margin-left: 0;
+  margin-top: 20px !important;
+}
+
+.u-section-2 .u-form-group-5 {
+  margin-top: 30px !important;
 }
 
 .u-section-2 .u-form-group-6 {
   margin-left: 0;
+  margin-top: 30px !important;
+}
+
+.u-section-2 .u-form-group-7 {
+  margin-left: 0;
+}
+
+.u-section-2 .u-form-group-8 {
+  margin-left: 0;
+  margin-top: 30px !important;
 }
 
 .u-section-2 .u-btn-1 {
+  margin-top: 50px;
+  background-image: none;
+  font-size: 1rem;
   padding: 10px 141px;
 }
 
