@@ -194,3 +194,21 @@ window.showRecaptchaV2 = function (form) {
         }, 300);
     }
 };
+
+document.addEventListener('DOMContentLoaded', function () {
+    const closeButtons = document.querySelectorAll('.u-form-send-message-close');
+
+    closeButtons.forEach(btn => {
+        btn.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            const parent = btn.closest('.u-form-send-message');
+            if (parent && parent.classList.contains('u-form-send-success')) {
+                window.location.href = 'index.html';
+            } else if (parent && parent.classList.contains('u-form-send-error')) {
+                window.location.href = 'RSPV.html';
+            }
+        });
+    });
+
+});
