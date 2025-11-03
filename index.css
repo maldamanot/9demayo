@@ -1574,3 +1574,13 @@
   font-weight: 400;
   src: url(fonts/BurguesScriptRegular.otf);
 }
+
+.scroll-fade {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease-out;
+}
+.scroll-fade.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
