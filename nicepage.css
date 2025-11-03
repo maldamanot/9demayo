@@ -2485,14 +2485,18 @@ a {
 .u-form div.u-form-send-error,
 .u-form div.u-form-send-success {
   display: none;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  width: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
   text-align: center;
   color: #fff;
-  padding: 20px;
+  padding: 30px;
   border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  font-size: 1.2em;
 }
 .u-form .u-form-group.u-form-checkbox,
 .u-form .u-form-group.u-form-agree {
